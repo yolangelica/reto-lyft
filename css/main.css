@@ -1,0 +1,170 @@
+body {
+	margin: 0 auto;
+}
+
+
+/*_________HEADER_________________*/
+
+
+header{
+	z-index: 1;
+	position: fixed;
+	background-image: url(../assets/images/hero.gif);
+	background-size: cover;
+	top:0;
+	left:0;
+	width: 100%;
+	padding-bottom: 10px;
+}
+
+.section1{
+	background-image: url(../assets/images/hero.gif);
+	height: auto;
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 100px;
+
+}
+header img{/*imagen*/
+	width: 60px;
+	padding: 33px 80px;
+}
+
+
+.login{/*borde boton login*/
+	border: 1px solid white;
+	border-radius: 5px;
+}
+
+
+.header1 a{/*texto de cada link*/
+	
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 17px;
+
+}
+
+.header1 a:hover:not(.active){/*accion al pasar el cursor*/
+	color:#FF00BF;
+	margin-bottom: 20px;
+	
+
+}
+
+.header1{/*mueve todos los link*/
+	margin-left:560px;
+	display: inline-block;
+    bottom: 50px;
+    position: absolute;
+}
+
+
+
+/*_____________SECTION____________*/
+
+
+
+
+
+.cont-white{
+	background: white;
+	width: 35%;
+	height: 400px;
+	margin-left:700px;
+	padding-right: 65px;
+	padding-left: 60px;
+
+    
+
+
+	
+}
+
+.cont-white h2{
+	color:#352384;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 29px;
+	padding-top:50px; 
+
+	
+}
+
+.cont-white p{
+	font-family: 'Montserrat', sans-serif;
+	color:#675AA3;
+
+}
+
+input{
+
+	
+	height: 17px;
+	border-style: none;
+
+
+}
+
+.barra-datos{
+	color: #B9B3D4;
+	font-size: 14px;
+	border-bottom: 1px  solid #B9B3D4;
+	width: 400px;
+	
+}
+
+.botones{
+	margin-top:50px;
+	font-family: 'Montserrat', sans-serif;
+
+}
+.botones a:first-child {/*primer hijo*/
+	background:#FF00BF;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	color:#FFFFFF;
+	text-decoration: none;
+	border-radius: 9px;
+	padding:10px;
+	margin-right: 25px;
+
+}
+
+.texto-s{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: x-small;
+	margin-top: 100px;
+	margin-bottom: 55px;
+}
+
+/*____________Seccion2 phone__________*/
+
+.section2{
+	background:linear-gradient(#76278F, #2B1E66);
+	clear: both;
+	overflow: hidden;
+	color:#FFFFFF;
+	list-style:none;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:300; 
+	
+	
+}
+
+
+.phone{
+    float: right;
+    width: 35%;
+  
+}
+ul {
+	list-style:none;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:300; 
+}
+
